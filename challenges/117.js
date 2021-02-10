@@ -16,9 +16,9 @@
 // To get it working, don't worry about efficiency. Later we'll learn about specialized data structures that make this simpler/efficient.
 
 function intersection(a, b){
-  return(
-    // replace this line with your code
-  );
+  let sameNum = a.filter(value => b.includes(value));
+  return sameNum
 }
+
 
 module.exports = intersection;
